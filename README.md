@@ -102,10 +102,6 @@ User receives instant recommendations
 
 📸 Screenshots
 
-Add screenshots or demo GIFs here
-
-/assets/chatbot-ui.png
-/assets/property-results.png
 
 🚀 Use Cases
 
