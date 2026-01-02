@@ -1,32 +1,35 @@
 🏠 Real Estate Chatbot
 
-An intelligent Real Estate Chatbot designed to assist users in searching properties, getting price details, booking site visits, and answering real estate–related queries in real time.
+An AI-powered Real Estate Chatbot that helps users find properties, check prices, explore locations, and get instant answers to real estate-related queries through a conversational interface.
 
-🚀 Features
+📌 Overview
 
-💬 Interactive chat-based property search
+The Real Estate Chatbot provides a smart and interactive way for users to search for properties. It understands user queries, recommends suitable properties, and assists with buying or renting decisions. The chatbot improves user experience by offering fast, accurate, and personalized responses.
 
-🏘️ Buy / Rent property recommendations
+✨ Features
 
-📍 Location-based filtering
+💬 Real-time conversational chatbot
 
-💰 Budget & price range suggestions
+🏘️ Property search for Buy / Rent
 
-📅 Site visit scheduling support
+📍 Location-based recommendations
 
-🤖 AI-powered responses
+💰 Budget-friendly property suggestions
+
+🧠 AI-based intent understanding
+
+📅 Site visit assistance (optional)
 
 🔐 User authentication (optional)
 
-📊 Admin panel for property management (optional)
+🛠️ Admin management for property listings
 
 🛠️ Tech Stack
-
 Frontend
 
 React.js
 
-Tailwind CSS / CSS
+HTML, CSS, JavaScript
 
 Axios
 
@@ -42,32 +45,29 @@ MongoDB
 
 AI / Chatbot
 
-OpenAI API / Custom NLP Logic
+OpenAI API / NLP-based logic
 
-Authentication
-
-JWT / Clerk (optional)
-
-📂 Project Structure
+📁 Project Structure
 real-estate-chatbot/
 │
-├── client/            # React frontend
+├── client/                # Frontend (React)
 │   ├── src/
-│   ├── components/
-│   └── pages/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── services/
 │
-├── server/            # Backend
-│   ├── routes/
+├── server/                # Backend (Node + Express)
 │   ├── controllers/
+│   ├── routes/
 │   ├── models/
-│   └── index.js
+│   └── config/
 │
 ├── .env
 ├── package.json
 └── README.md
 
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
+1️⃣ Clone Repository
 git clone https://github.com/your-username/real-estate-chatbot.git
 cd real-estate-chatbot
 
@@ -79,8 +79,8 @@ npm start
 
 Create a .env file:
 
-MONGO_URI=your_mongodb_url
-OPENAI_API_KEY=your_api_key
+MONGO_URI=your_mongodb_connection_string
+OPENAI_API_KEY=your_openai_api_key
 PORT=5000
 
 3️⃣ Frontend Setup
@@ -88,59 +88,58 @@ cd client
 npm install
 npm run dev
 
-🧠 How Chatbot Works
+🧠 How It Works
 
-User enters a query (e.g., “2 BHK flat in Pune under 50 lakhs”)
+User enters a real estate query
 
-NLP processes intent & entities
+Chatbot analyzes intent and keywords
 
-Backend fetches matching properties
+Backend fetches relevant property data
 
-AI formats and responds conversationally
+AI generates a conversational response
 
-User continues interaction
+User receives instant recommendations
 
 📸 Screenshots
 
-Add screenshots or GIFs here
-Example:
+Add screenshots or demo GIFs here
 
-/assets/chat-ui.png
-/assets/property-list.png
+/assets/chatbot-ui.png
+/assets/property-results.png
 
-📌 Use Cases
+🚀 Use Cases
 
-Real estate websites
+Real Estate Listing Platforms
 
-Property listing platforms
+Property Dealer Websites
 
-Customer support automation
+Customer Support Automation
 
-College final-year projects
+Academic & Final Year Projects
 
 🔮 Future Enhancements
 
-🗣️ Voice-based chatbot
+🗣️ Voice-enabled chatbot
+
+🌍 Multi-language support
 
 📍 Google Maps integration
 
-💳 Payment gateway
+💳 Payment & booking system
 
-🧾 Property comparison feature
+📊 Advanced analytics dashboard
 
-🌐 Multi-language support
+🤝 Contribution Guidelines
 
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the repo
+Fork the repository
 
 Create a new branch
 
-Commit changes
+Commit your changes
 
-Submit a Pull Request
+Push to your branch
+
+Create a Pull Request
 
 📜 License
 
